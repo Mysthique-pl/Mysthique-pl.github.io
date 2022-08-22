@@ -53,8 +53,9 @@ ul {
     color: var(--basic-light-color);
 }
 
-.columns {
+.box {
     display: flex;
+    margin-block: var(--basic-spacing);
 }
 
 .img-thumbnail {
@@ -81,9 +82,4 @@ ul {
 
 .image-set {
     box-shadow: 2px 2px 5px 0 var(--basic-dark-color);
-}
-.centered {
-    margin-block: var(--basic-spacing);
-    display: grid;
-    place-items: center;
 }
